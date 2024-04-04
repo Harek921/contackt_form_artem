@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Basics Vladislav Nikishyn</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="js/js.ts"></script>
+    <style>
+
+    </style>
+</head>
+        <title>Contackt form Artem</title>
+</head>
+<body>
+    <div>
+    <h1>Contact form</h1>
+        <form action="">
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="fname">Your name</label>
+                <input type="text" id="fname" name="fname" required>
+                <label for="email">Почта:</label>
+                <input type="email" id="email" name="email">
+                <input type="submit" value="Submit">
+                <button type="reset">Обнулить</button>
+            </fieldset>
+        </form>
+
+        <hr class="style1">
+
+        <form action="">
+            <label for="age">Choose you age</label>
+
+            <select name="list" id="age">
+                <option value="item1">1</option>
+                <option value="item1">2</option>
+                <option value="item1">3</option>
+                <option value="item1">4</option>
+                <option value="item1">5</option>
+
+            </select>
+
+        </form>
+
+        <hr class="style1">
+
+        <form>
+
+            <label for="gender">Choose your gender</label><br>
+
+            <input type="radio" id="gender" name="interest">
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" name="interest">
+            <label for="gender">Female</label>
+            <input type="radio" id="gender" name="interest">
+            <label for="gender">Anathe</label>
+        </form>
+
+        <hr class="style1">
+
+        <form>
+            <label for="option">Choose youro option</label><br>
+
+            <input type="checkbox" id="option" name="interest">
+            <label for="option">Oprion 1</label>
+            <input type="checkbox" id="option" name="interest">
+            <label for="option">Oprion 3</label>
+            <input type="checkbox" id="option" name="interest">
+            <label for="option">Oprion 3</label>
+        </form>
+
+        <hr class="style1">
+
+         <form action=""
+                  method="get"
+                  target="_blank">
+
+                <label for="name">Your phone</label>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="name">Your password</label>
+                <input type="password" id="passowd" name="password">
+
+        </form>
+
+        <hr class="style1">
+
+        <form>
+
+    <label for="ta">Your message</label><br>
+            <textarea id="ta" cols="50" rows="20"></textarea><br>
+
+            <input type="submit" value="Submit">
+            <input type="button" value="Reset" onclick="reset();">
+
+        </form>
+    </div>
+
+</body>
+</html>
