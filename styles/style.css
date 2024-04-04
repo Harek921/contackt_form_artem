@@ -3,3 +3,34 @@ hr.style1 {
     border-radius: 10px;
 }
 
+body {background-color: white;
+}
+div {background-color: #b31b90;
+    height: 725px;
+    width: 70%;
+    background-color: powderblue;
+    text-align: center;
+    border-radius: 5%;
+}
+
+textarea {
+    border-radius: 5%;
+    background-color: #6b72b3;
+
+}
+
+input[type=text] {
+    border-radius: 5%;
+    background-color: #6b72b3;
+}
+
+input[type=email] {
+    border-radius: 5%;
+    background-color: #6b72b3;
+}
+
+input[type=password] {
+    border-radius: 5%;
+    background-color: #6b72b3;
+}
+
